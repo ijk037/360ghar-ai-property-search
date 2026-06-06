@@ -24,6 +24,9 @@ function App() {
   const [selectedProperty, setSelectedProperty] =
     useState(null);
 
+  const [followUp, setFollowUp] =
+    useState("");
+
   function filterProperties(properties, filters) {
     return properties.filter((p) => {
       if (filters.bhk && p.bhk !== filters.bhk) return false;
@@ -87,6 +90,7 @@ function App() {
           parsedFilters,
           ranked
         );
+      console.log("FOLLOW UP:", followUpQuestion);
       setFollowUp(followUpQuestion);
 
     } catch (error) {
@@ -100,7 +104,7 @@ function App() {
     <div className="app">
 
       <h1 className="title">
-        Find Your Dream Home with AI!
+        🏠 360 Ghar AI Property Search
       </h1>
 
       <p className="subtitle">
@@ -163,7 +167,3 @@ function App() {
 }
 
 export default App;
-
-
-const [followUp, setFollowUp] =
-  useState("");

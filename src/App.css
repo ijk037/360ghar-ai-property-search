@@ -5,15 +5,26 @@ body {
 }
 
 .app {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: auto;
-  padding: 40px;
+  padding: 40px 30px;
 }
 
 .title {
   text-align: center;
-  margin-bottom: 30px;
-  color: #222;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  line-height: 1.2;
+
+  background: linear-gradient(
+    90deg,
+    #b8860b,
+    #e0b84d
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .search-container {
@@ -64,7 +75,7 @@ body {
 .property-grid {
   display: grid;
   grid-template-columns:
-    repeat(auto-fit, minmax(320px, 1fr));
+    repeat(auto-fit, minmax(280px, 1fr));
   gap: 24px;
 }
 
@@ -194,18 +205,6 @@ body {
 }
 
 
-.title {
-  background: linear-gradient(
-    90deg,
-    #b8860b,
-    #e0b84d
-  );
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-
 .subtitle {
   text-align: center;
   color: #666;
@@ -231,4 +230,19 @@ body {
   border-radius: 16px;
   text-align: center;
   color: #666;
+}
+
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .search-container {
+    flex-direction: column;
+  }
+
+  .search-input {
+    width: 100%;
+  }
 }
