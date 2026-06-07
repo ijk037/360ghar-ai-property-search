@@ -93,27 +93,21 @@ Features include:
 
 ### Home Page
 
-Add screenshot here:
+Natural language property search interface with AI-powered query input.
 
-```text
-ghar-search/screenshots/home-page.png
-```
+![Home Page](screenshots/home-page.png)
 
 ### Search Results
 
-Add screenshot here:
+AI-assisted property matching and recommendations.
 
-```text
-ghar-search/screenshots/search-results.png
-```
+![Search Results](screenshots/search-results.png)
 
 ### Property Details Modal
 
-Add screenshot here:
+Detailed property view with property insights and recommendations.
 
-```text
-ghar-search/screenshots/property-modal.png
-```
+![Property Modal](screenshots/property-modal.png)
 
 ---
 
