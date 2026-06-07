@@ -11,10 +11,10 @@ const properties = [
     facing: "East",
     floor: 8,
     totalFloors: 14,
-    image: "https://placehold.co/400x220?text=360°+View",
-    tags: ["Near DPS School", "Great Sunlight", "Gated Society"]
+    image: "https://plus.unsplash.com/premium_photo-1684348962314-64fa628992f0?q=80&w=870&auto=format&fit=crop",
+    tags: ["Near DPS School", "Great Sunlight", "Gated Society"],
+    matchReason: "☀️ Great Sunlight · 🏫 Near School"
   },
-
   {
     id: 2,
     title: "3BHK in Sector 57",
@@ -27,10 +27,10 @@ const properties = [
     facing: "North",
     floor: 12,
     totalFloors: 20,
-    image: "https://placehold.co/400x220?text=360°+View",
-    tags: ["Premium Society", "Clubhouse", "Family Friendly"]
+    image: "https://images.unsplash.com/photo-1724582586529-62622e50c0b3?q=80&w=928&auto=format&fit=crop",
+    tags: ["Premium Society", "Clubhouse", "Family Friendly"],
+    matchReason: "🌳 Park Facing · 🏋️ Gym Access"
   },
-
   {
     id: 3,
     title: "1BHK in Sector 82",
@@ -43,10 +43,10 @@ const properties = [
     facing: "West",
     floor: 4,
     totalFloors: 10,
-    image: "https://placehold.co/400x220?text=360°+View",
-    tags: ["Affordable", "Near Metro", "Compact Living"]
+    image: "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?q=80&w=870&auto=format&fit=crop",
+    tags: ["Affordable", "Near Metro", "Compact Living"],
+    matchReason: "🚇 Metro Access · 🛍️ Mall Nearby"
   },
-
   {
     id: 4,
     title: "2BHK in Sector 48",
@@ -59,10 +59,10 @@ const properties = [
     facing: "East",
     floor: 6,
     totalFloors: 12,
-    image: "https://placehold.co/400x220?text=360°+View",
-    tags: ["Great Ventilation", "Family Friendly", "Park Facing"]
+    image: "https://plus.unsplash.com/premium_photo-1683140554145-c7fb8c93cb36?q=80&w=870&auto=format&fit=crop",
+    tags: ["Great Ventilation", "Family Friendly", "Park Facing"],
+    matchReason: "☀️ East Facing · 🌳 Park Nearby"
   },
-
   {
     id: 5,
     title: "3BHK in Sector 65",
@@ -75,10 +75,10 @@ const properties = [
     facing: "South",
     floor: 15,
     totalFloors: 24,
-    image: "https://placehold.co/400x220?text=360°+View",
-    tags: ["Luxury Living", "High Floor", "Premium Amenities"]
+    image: "https://plus.unsplash.com/premium_photo-1661880106258-f1e62559f4e1?q=80&w=869&auto=format&fit=crop",
+    tags: ["Luxury Living", "High Floor", "Premium Amenities"],
+    matchReason: "🏋️ Gym + Pool · 🏙️ High Floor Views"
   },
-
   {
     id: 6,
     title: "2BHK in Sector 47",
@@ -91,10 +91,10 @@ const properties = [
     facing: "North-East",
     floor: 5,
     totalFloors: 13,
-    image: "https://placehold.co/400x220?text=360°+View",
-    tags: ["Near Schools", "Market Nearby", "Good Connectivity"]
+    image: "https://plus.unsplash.com/premium_photo-1661876380847-be2a1fae414e?q=80&w=869&auto=format&fit=crop",
+    tags: ["Near Schools", "Market Nearby", "Good Connectivity"],
+    matchReason: "🏫 School Nearby · 🛒 Market Access"
   },
-
   {
     id: 7,
     title: "3BHK in Sector 56",
@@ -107,10 +107,10 @@ const properties = [
     facing: "East",
     floor: 10,
     totalFloors: 18,
-    image: "https://placehold.co/400x220?text=360°+View",
-    tags: ["Metro Access", "Spacious", "Fitness Facilities"]
+    image: "https://plus.unsplash.com/premium_photo-1661872731017-f16222b794cf?q=80&w=883&auto=format&fit=crop",
+    tags: ["Metro Access", "Spacious", "Fitness Facilities"],
+    matchReason: "🚇 Metro · ☀️ East Facing · 🌳 Park"
   },
-
   {
     id: 8,
     title: "1BHK in Sector 50",
@@ -123,10 +123,10 @@ const properties = [
     facing: "East",
     floor: 3,
     totalFloors: 9,
-    image: "https://placehold.co/400x220?text=360°+View",
-    tags: ["Budget Friendly", "Bright Home", "Quiet Area"]
+    image: "https://plus.unsplash.com/premium_photo-1673014200221-524696a1edd9?q=80&w=931&auto=format&fit=crop",
+    tags: ["Budget Friendly", "Bright Home", "Quiet Area"],
+    matchReason: "💰 Best Value · ☀️ Bright Interiors"
   },
-
   {
     id: 9,
     title: "2BHK in Sector 82",
@@ -139,10 +139,10 @@ const properties = [
     facing: "North",
     floor: 7,
     totalFloors: 16,
-    image: "https://placehold.co/400x220?text=360°+View",
-    tags: ["Near Metro", "Modern Society", "Well Connected"]
+    image: "https://plus.unsplash.com/premium_photo-1661872731017-f16222b794cf?q=80&w=883&auto=format&fit=crop",
+    tags: ["Near Metro", "Modern Society", "Well Connected"],
+    matchReason: "🚇 Metro Access · 🏋️ Gym Available"
   },
-
   {
     id: 10,
     title: "3BHK in Sector 50",
@@ -155,8 +155,9 @@ const properties = [
     facing: "East",
     floor: 11,
     totalFloors: 19,
-    image: "https://placehold.co/400x220?text=360°+View",
-    tags: ["Luxury Family Home", "Excellent Sunlight", "Premium Community"]
+    image: "https://plus.unsplash.com/premium_photo-1683141567614-f298c8913928?q=80&w=870&auto=format&fit=crop",
+    tags: ["Luxury Family Home", "Excellent Sunlight", "Premium Community"],
+    matchReason: "☀️ Best Sunlight · 🏫 Near DPS · 🏊 Pool"
   }
 ];
 

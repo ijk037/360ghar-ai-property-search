@@ -1,0 +1,47 @@
+export const theme = {
+  colors: {
+    saffron: '#E8821A',
+    saffronLight: '#FDF3E7',
+    saffronDark: '#C4680F',
+    neutral900: '#111827',
+    neutral700: '#374151',
+    neutral500: '#6B7280',
+    neutral300: '#D1D5DB',
+    neutral100: '#F3F4F6',
+    white: '#FFFFFF',
+    greenMatch: '#16A34A',
+    greenMatchLight: '#F0FDF4',
+    blueInfo: '#2563EB',
+    overlayDark: 'rgba(0,0,0,0.5)',
+  },
+  fonts: {
+    family: "'Inter', sans-serif",
+    display: { size: '48px', weight: 700, lineHeight: '58px' },
+    h1:      { size: '32px', weight: 700, lineHeight: '40px' },
+    h2:      { size: '24px', weight: 600, lineHeight: '32px' },
+    h3:      { size: '18px', weight: 600, lineHeight: '26px' },
+    large:   { size: '16px', weight: 400, lineHeight: '24px' },
+    base:    { size: '14px', weight: 400, lineHeight: '22px' },
+    small:   { size: '12px', weight: 400, lineHeight: '18px' },
+    labelBold: { size: '12px', weight: 600, lineHeight: '18px' },
+    labelCaps: { size: '11px', weight: 700, lineHeight: '16px', letterSpacing: '1.2px' },
+  },
+  shadows: {
+    card:      '0px 2px 12px rgba(0,0,0,0.08)',
+    cardHover: '0px 8px 32px rgba(0,0,0,0.12)',
+    searchBar: '0px 4px 24px rgba(0,0,0,0.12)',
+    modal:     '0px 20px 60px rgba(0,0,0,0.18)',
+  },
+  radius: {
+    sm: '6px',
+    md: '10px',
+    lg: '14px',
+    xl: '16px',
+    xxl: '20px',
+    pill: '999px',
+  },
+  spacing: {
+    xs: '4px', sm: '8px', md: '12px', lg: '16px',
+    xl: '24px', xxl: '32px', xxxl: '48px',
+  }
+};
