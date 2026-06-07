@@ -96,7 +96,7 @@ Features include:
 Add screenshot here:
 
 ```text
-/screenshots/home-page.png
+ghar-search/screenshots/home-page.png
 ```
 
 ### Search Results
@@ -104,7 +104,7 @@ Add screenshot here:
 Add screenshot here:
 
 ```text
-/screenshots/search-results.png
+ghar-search/screenshots/search-results.png
 ```
 
 ### Property Details Modal
@@ -112,7 +112,7 @@ Add screenshot here:
 Add screenshot here:
 
 ```text
-/screenshots/property-modal.png
+ghar-search/screenshots/property-modal.png
 ```
 
 ---
